@@ -1,0 +1,104 @@
+
+
+@media(min-width:1366px) {
+    .mask-price-info-inner {
+        margin-left: -142px;
+    }
+}
+
+@media(max-width:1199px) {
+    .mask-packet-mobile {
+       
+        background: url(../img/mob1.jpg);
+        background-size: cover;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        background-position-x: left;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+    }
+        .mask-packet-info {
+            line-height: 1;
+            margin-top: 450px;
+    }
+}
+
+@media(min-width:1199px) {
+    .mask-packet {
+        background: url(../img/packet-bg.png);
+        background-size: cover;
+    }
+
+    .succsess-text {
+        margin-top: -50px; 
+        margin-left: 100px;
+    }
+
+    .succsess-kids {
+        margin-top: -120px;
+    }
+}
+
+@media(min-width:1366px) {
+
+    .galery {
+        .right-gallery {
+          margin-left: -30px;
+        }
+    }
+
+    .generation-right {
+        margin-left: -30px;
+    }
+  
+}
+
+@media(max-width:991px) {
+
+    main {
+        padding: 0rem 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        text-align: start;
+    }
+}
+
+
+
+
+@media(min-width:768px) {
+    section {
+        padding: 5.5rem 0rem;
+    }
+    .mask-price-inner-body {
+        background: white;
+        width: max-content;
+        padding: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+    }
+    .succsess-form {
+        box-shadow: 0px 0px 25px 0px #fff;
+    }
+
+    .mini-info {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+}
+
+@media(max-width:768px) {
+    .mask-price-inner-body {
+        background: transparent!important;
+        box-shadow: none;
+    }
+}
+
+@media(max-width:576px) {
+    .hero-title {
+        font-size: 3rem!important;
+    }
+}
